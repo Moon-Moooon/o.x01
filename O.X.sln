@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "O.X", "O.X\O.X.csproj", "{580E7FBF-5ADC-4650-A92D-E3DE4B67F18A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnEvent", "LearnEvent\LearnEvent.csproj", "{132FFF8C-8023-4C2C-B8EE-98335DE32F99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnEvent", "LearnEvent\LearnEvent.csproj", "{132FFF8C-8023-4C2C-B8EE-98335DE32F99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
