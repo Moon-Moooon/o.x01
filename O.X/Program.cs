@@ -249,7 +249,16 @@ namespace O.X
                         NumberOfCoincidences++;
                         if (NumberOfCoincidences == 3)
                         {
-                            Console.WriteLine($"Победил игрок с <{q[0]}>");
+                            if (q[0] == 'x')
+                            {
+                                Console.WriteLine($"Вы победил бота замечательно!)");
+                            }
+                            if (q[0] == 'o')
+                            {
+                                Console.WriteLine($"Вас победил бот");
+                            }
+                            Console.WriteLine("Нажмите клавишу чтобы выйти из игры");
+                            Console.ReadKey();
                             Environment.Exit(0);
                         }
                     }
@@ -269,7 +278,16 @@ namespace O.X
                         NumberOfCoincidences++;
                         if (NumberOfCoincidences == 3)
                         {
-                            Console.WriteLine($"победил игрок с <{q[0]}>");
+                            if (q[0] == 'x')
+                            {
+                                Console.WriteLine($"Вы победил бота замечательно!)");
+                            }
+                            if (q[0] == 'o')
+                            {
+                                Console.WriteLine($"Вас победил бот");
+                            }
+                            Console.WriteLine("Нажмите клавишу чтобы выйти из игры");
+                            Console.ReadKey();
                             Environment.Exit(0);
                         }
                     }
