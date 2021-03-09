@@ -1,10 +1,8 @@
 ﻿using System;
 
-// - желательно рефакторить и посмотреть доктрины по нецймингу CamelCase и тп 
-
 namespace O.X
 {
-    class Program  // почему если ставить паблик( но не работает с интернал хотя по логике должно) то ошибка в MethodForChiseCell(int a, char[,] Gird, ClassGird CG) с передачей ClassGird пропадает, не понятно.
+    class Program
     {
         static void Main(string[] args)
         {
@@ -67,7 +65,6 @@ namespace O.X
                 }
                 HandlerOfTheGrid.MethodHandlerOfTheGrid(CG.GetSetGird);
                 CoreLogicOfGanePlay.CoreLogic(CG.GetSetGird);
-                //Console.WriteLine("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
                 Console.WriteLine("================================================\n");
             }
         }
@@ -109,7 +106,7 @@ namespace O.X
 
     }
 
-    public class ChiseCell       // Разобраться почему без статика не работает //видать потомучто без статика нужно создать экземпляр
+    public class ChiseCell
     {
         public static char[,] MethodForChiseCell(int a, char[,] Gird, ref int NumberOfPlayer)
         {
@@ -226,9 +223,9 @@ namespace O.X
         }
     }
 
-    class CoreLogicOfGanePlay
+    class  CoreLogicOfGanePlay
     {
-        public static void CoreLogic(char[,] Gird)   // Понять почему если не писать статик то выдает 120 ошибка
+        public static  void CoreLogic(char[,] Gird)
         {
             int columns = Gird.GetUpperBound(0) + 1;
             int rows = Gird.Length / columns;
@@ -280,7 +277,7 @@ namespace O.X
                         {
                             if (q[0] == 'x')
                             {
-                                Console.WriteLine($"Вы пgitобедил бота замечательно!)");
+                                Console.WriteLine($"Вы победил бота замечательно!)");
                             }
                             if (q[0] == 'o')
                             {
