@@ -139,7 +139,7 @@ namespace O.X
                             Gird[i, j] = result;
                             if (NumberOfPlayer == 0)
                             {
-                                Console.WriteLine($"Бот выюрал ячейку {a} ");
+                                Console.WriteLine($"Бот выбирает ячейку {a} ");
                             }
                             ClassLogicOfGame.ChangeOfNumberPlayer(ref NumberOfPlayer);
                         }
