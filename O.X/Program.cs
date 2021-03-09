@@ -280,7 +280,7 @@ namespace O.X
                         {
                             if (q[0] == 'x')
                             {
-                                Console.WriteLine($"Вы победил бота замечательно!)");
+                                Console.WriteLine($"Вы пgitобедил бота замечательно!)");
                             }
                             if (q[0] == 'o')
                             {
